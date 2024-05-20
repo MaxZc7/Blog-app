@@ -19,3 +19,5 @@ Posibilidades:
 -Eliminar o hacer cambios en tus publicaciones unicamente
 
 Ruta protegida: Para ver posteos necesitas loguearte
+
+Enctriptado: Manejo de usuarios con JWT almacenado en el localstorage y contraseña con hasheo Bcrypt 
