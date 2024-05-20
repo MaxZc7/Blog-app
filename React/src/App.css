@@ -1,0 +1,109 @@
+body {
+  background-color: #2b3d4f;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.homeContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.mainCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: white;
+  gap: 4px;
+}
+
+.mainStartContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  color: white;
+  gap: 4px;
+}
+.separator {
+  height: 2px;
+  width: 100%;
+  background-color: white;
+  margin: 2em 0;
+}
+.usernameText {
+  text-transform: capitalize;
+}
+
+.postTitle {
+  border-bottom: 2px solid skyblue;
+  margin-top: 1em;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: white;
+  gap: 1rem;
+}
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: white;
+  border: 2px solid white;
+  padding: 3em 0;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.formSign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: white;
+  gap: 12px;
+}
+input {
+  color: black;
+}
+.sideBarContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: white;
+  gap: 2rem;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: white;
+  gap: 1rem;
+}
+
+.importanText {
+  border-bottom: 2px solid skyblue;
+}
+
+p {
+  margin: 0;
+}
